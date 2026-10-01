@@ -11,3 +11,5 @@ CI and Docker builds must use:
 
 ```bash
 npm ci
+
+#checks of sec
