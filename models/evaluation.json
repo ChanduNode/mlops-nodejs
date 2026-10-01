@@ -1,0 +1,14 @@
+{
+  "datasetSize": 1500,
+  "evaluationSamples": 300,
+  "metrics": {
+    "accuracy": 0.7866666666666666,
+    "precision": 0.7866666666666666,
+    "recall": 1,
+    "f1": 0.8805970149253731,
+    "tp": 236,
+    "tn": 0,
+    "fp": 64,
+    "fn": 0
+  }
+}

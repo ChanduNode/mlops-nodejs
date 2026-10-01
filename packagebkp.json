@@ -1,0 +1,10 @@
+
+  // "scripts": {
+  //   "generate-data": "tsx scripts/generate-data.ts",
+  //   "train": "tsx src/train.ts",
+  //   "evaluate": "tsx src/evaluate.ts",
+  //   "build": "tsc",
+  //   "serve": "tsx src/server.ts",
+  //   "start": "node dist/server.js",
+  //   "test": "npm run build"
+  // },

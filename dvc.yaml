@@ -1,0 +1,15 @@
+stages:
+
+  train:
+
+    cmd: npm run train
+
+    deps:
+      - data/customers.csv
+      - src/data.ts
+      - src/model.ts
+      - src/mlflow.ts
+      - src/train.ts
+
+    outs:
+      - models/model.json

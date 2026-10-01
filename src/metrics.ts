@@ -1,0 +1,2 @@
+export interface ClassificationMetrics { accuracy:number; precision:number; recall:number; f1:number; tp:number; tn:number; fp:number; fn:number; }
+export function evaluate(y:number[], p:number[]):ClassificationMetrics { let tp=0,tn=0,fp=0,fn=0; y.forEach((v,i)=>{if(v===1&&p[i]===1)tp++;else if(v===0&&p[i]===0)tn++;else if(v===0&&p[i]===1)fp++;else fn++;}); const accuracy=(tp+tn)/y.length; const precision=tp/(tp+fp||1); const recall=tp/(tp+fn||1); const f1=2*precision*recall/(precision+recall||1); return {accuracy,precision,recall,f1,tp,tn,fp,fn}; }
